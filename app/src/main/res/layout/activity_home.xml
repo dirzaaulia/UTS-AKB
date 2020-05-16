@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dimen15"
+        android:layout_weight="2.75"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="@dimen/dimen200"
+            android:layout_height="@dimen/dimen200"
+            android:layout_gravity="center"
+            android:contentDescription="@string/image_desc"
+            android:src="@mipmap/ic_welcome_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen15"
+            android:textAlignment="center"
+            android:text="@string/selamat"
+            android:textSize="@dimen/font22"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/rubik"/>
+
+        <TextView
+            android:id="@+id/text_view_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginStart="@dimen/dimen25"
+            android:layout_marginEnd="@dimen/dimen25"
+            android:textAlignment="center"
+            android:text="@string/desc_home"
+            android:textSize="@dimen/font18"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/rubik"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen15"
+            android:layout_marginStart="@dimen/dimen72"
+            android:layout_marginEnd="@dimen/dimen72"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_button2"
+            android:fontFamily="@font/nunitobold"
+            android:text="@string/kode"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font20"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/dimen15"
+        android:layout_marginEnd="@dimen/dimen15"
+        android:layout_weight="4.25">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen40"
+            android:textAlignment="center"
+            android:text="@string/bingung"
+            android:textSize="@dimen/font16"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/rubik"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen15"
+            android:layout_marginStart="@dimen/dimen72"
+            android:layout_marginEnd="@dimen/dimen72"
+            android:background="@drawable/bg_button"
+            android:fontFamily="@font/nunitobold"
+            android:text="@string/lihat_tutorial"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/font20"/>
+
+    </LinearLayout>
+
+</LinearLayout>

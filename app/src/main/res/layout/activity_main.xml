@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="4"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="@dimen/dimen200"
+            android:layout_height="@dimen/dimen200"
+            android:layout_marginTop="@dimen/dimen45"
+            android:contentDescription="@string/image_desc"
+            android:src="@mipmap/ic_welcome_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen25"
+            android:textAlignment="center"
+            android:text="@string/desc_main"
+            android:textSize="@dimen/font18"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/rubik"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/dimen15"
+        android:layout_marginEnd="@dimen/dimen15"
+        android:layout_marginTop="@dimen/dimen30"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_edit_text_nama_panggilan"
+            android:textSize="@dimen/font16"
+            android:textColor="@color/colorText"/>
+
+        <EditText
+            android:id="@+id/edit_text_nama_panggilan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_edit_text_nama_panggilan"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen15"
+            android:text="@string/judul_edit_text_jenis_kelamin"
+            android:textSize="@dimen/font16"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_button_lakilaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorAccent"
+                android:textSize="@dimen/font16"
+                android:text="@string/lakilaki"
+                android:textColor="@color/colorText"/>
+
+            <RadioButton
+                android:id="@+id/radio_button_perempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen100"
+                android:buttonTint="@color/colorAccent"
+                android:textSize="@dimen/font16"
+                android:text="@string/perempuan"
+                android:textColor="@color/colorText"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_edit_text_umur"
+            android:layout_marginTop="@dimen/dimen15"
+            android:textSize="@dimen/font16"
+            android:textColor="@color/colorText"/>
+
+        <EditText
+            android:id="@+id/edit_text_umur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_edit_text_umur"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/helper_umur"
+            android:textColor="@color/colorText"/>
+
+        <Button
+            android:id="@+id/button_daftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen30"
+            android:background="@drawable/bg_button"
+            android:text="@string/daftar"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="@dimen/font20"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

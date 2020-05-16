@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UTS AKB</string>
+    <string name="image_desc">Gambar Awal</string>
+    <string name="desc_main">Ayah Bunda silahkan mengisi\ndata anak di bawah ini</string>
+    <string name="judul_edit_text_nama_panggilan">Nama Panggilan Anak</string>
+    <string name="hint_edit_text_nama_panggilan">Isi dengan nama anak anda</string>
+    <string name="judul_edit_text_jenis_kelamin">Jenis Kelamin</string>
+    <string name="lakilaki">Laki-Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="judul_edit_text_umur">Umur saat ini</string>
+    <string name="hint_edit_text_umur">Contoh : 12</string>
+    <string name="helper_umur">*Umur diperlukan untuk rekomendasi waktu penggunaan handphone anak anda</string>
+    <string name="daftar">Daftar</string>
+    <string name="selamat">Yeay, Selamat :)</string>
+    <string name="desc_home">Aldebaran Abqori Kurniawan Laki - Laki 12 tahun Berhasil Ditambahkan. Silahkan Gunakan Kode Ini Untuk Masuk Kedalam Aplikasi Anak</string>
+    <string name="kode">AVGR99</string>
+    <string name="bingung">Bingung saat membuat kesepakatan instalasi dengan anak?</string>
+    <string name="lihat_tutorial">Lihat Tutorial</string>
+</resources>
